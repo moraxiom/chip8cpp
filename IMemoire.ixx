@@ -1,5 +1,5 @@
 export module IMemoire;
-
+// Explosion
 import <cstdint>;
 
 export using octet = std::uint8_t;

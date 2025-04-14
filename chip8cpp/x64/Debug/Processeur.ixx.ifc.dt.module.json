@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "chip8cpp\\x64\\Debug\\Processeur.obj",
+            "outputs": [
+                "chip8cpp\\x64\\Debug\\Processeur.ixx.ifc.dt.module.json",
+                "chip8cpp\\x64\\Debug\\Processeur.ixx.ifc.dt.d.json",
+                "chip8cpp\\x64\\Debug\\Processeur.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Processeur",
+                    "source-path": "c:\\users\\etudiant\\source\\repos\\dev\\chip8cpp\\processeur.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "IProcesseur"
+                },
+                {
+                    "logical-name": "IMemoire"
+                },
+                {
+                    "logical-name": "IVideoBuffer"
+                },
+                {
+                    "logical-name": "stack",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\stack",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "iomanip",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\iomanip",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "unordered_map",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\unordered_map",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "cassert",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\cassert",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "fstream",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\fstream",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                },
+                {
+                    "logical-name": "bitset",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\bitset",
+                    "lookup-method": "include-angle",
+                    "unique-on-source-path": true
+                }
+            ]
+        }
+    ]
+}

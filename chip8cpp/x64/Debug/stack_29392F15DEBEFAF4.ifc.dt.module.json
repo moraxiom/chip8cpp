@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "chip8cpp\\x64\\Debug\\stack.obj",
+            "outputs": [
+                "chip8cpp\\x64\\Debug\\stack_29392F15DEBEFAF4.ifc.dt.module.json",
+                "chip8cpp\\x64\\Debug\\stack_29392F15DEBEFAF4.ifc.dt.d.json",
+                "chip8cpp\\x64\\Debug\\stack.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\stack",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.43.34808\\include\\stack",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
