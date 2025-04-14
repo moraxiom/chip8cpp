@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\main.ixx",
+=======
+  "SelectedNode": "\\chip8cpp.sln",
+>>>>>>> hotfix
   "PreviewInSolutionExplorer": false
 }

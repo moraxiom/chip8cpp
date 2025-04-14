@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\etudiant\\source\\repos\\dev\\chip8cpp\\memoire.ixx",
+        "ProvidedModule": "Memoire",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

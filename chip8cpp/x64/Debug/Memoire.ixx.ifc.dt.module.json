@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "chip8cpp\\x64\\Debug\\Memoire.obj",
+            "outputs": [
+                "chip8cpp\\x64\\Debug\\Memoire.ixx.ifc.dt.module.json",
+                "chip8cpp\\x64\\Debug\\Memoire.ixx.ifc.dt.d.json",
+                "chip8cpp\\x64\\Debug\\Memoire.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Memoire",
+                    "source-path": "c:\\users\\etudiant\\source\\repos\\dev\\chip8cpp\\memoire.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "IMemoire"
+                }
+            ]
+        }
+    ]
+}
